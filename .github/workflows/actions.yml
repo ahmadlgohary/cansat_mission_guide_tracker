@@ -24,7 +24,7 @@ jobs:
           
       - name: execute py script # run main.py
         env:
-          personal_access_token      :   ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          personal_access_token      :   ${{ secrets.personal_access_token }}
         run: python main.py
           
       - name: commit files
